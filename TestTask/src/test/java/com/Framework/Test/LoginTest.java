@@ -18,6 +18,7 @@ public class LoginTest extends BaseTest {
 		loginPage.DoLogin(UserName,Password);
 	
 		//tearDown();
+		//tearDown();
 
 	}
 
