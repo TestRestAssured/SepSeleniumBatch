@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Cart App Test automtion regression suite]" guice-stage="DEVELOPMENT" verbose="3">
+  <parameter name="myName" value="manisha"/>
+  <test thread-count="5" parallel="classes" name="Login page Test_ff(failed)" verbose="3">
+    <classes>
+      <class name="com.Framework.Test.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginPageTitleValidation1" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.Framework.Test.LoginTest -->
+    </classes>
+  </test> <!-- Login page Test_ff(failed) -->
+</suite> <!-- Failed suite [Demo Cart App Test automtion regression suite] -->

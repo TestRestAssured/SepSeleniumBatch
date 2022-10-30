@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo Cart App Test automtion regression suite" 
+	 verbose="3">
+
+	 <parameter name = "myName" value="manisha"/>
+	<test name="Login page Test_ff"  parallel="classes">
+				<classes>
+			<class name="com.Framework.Test.LoginTest" />
+			
+		</classes>
+	</test>
+</suite>
