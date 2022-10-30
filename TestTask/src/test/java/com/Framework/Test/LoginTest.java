@@ -16,8 +16,7 @@ public class LoginTest extends BaseTest {
 		String title = loginPage.getLoginPageTitle();
 		Assert.assertEquals(title, "Account Login");
 		loginPage.DoLogin(UserName,Password);
-		
-		
+	
 		//tearDown();
 
 	}
