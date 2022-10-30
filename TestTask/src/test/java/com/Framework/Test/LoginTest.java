@@ -17,6 +17,7 @@ public class LoginTest extends BaseTest {
 		Assert.assertEquals(title, "Account Login");
 		loginPage.DoLogin(UserName,Password);
 		
+		
 		//tearDown();
 
 	}
